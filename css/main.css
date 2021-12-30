@@ -345,6 +345,7 @@ section.work h1 {
   max-width: 100%;
   height: 83%;
   flex: 1;
+  border-radius: 10px 10px 0 0;
 }
 
 .work .survey {
