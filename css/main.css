@@ -305,11 +305,24 @@ ul li a:hover {
 
 /* Start Work*/
 
-section.work {
-  padding: 60px 20px;
+.work {
+  padding: var(--main-padding, 100px) 0 var(--main-padding, 100px);
   background-color: var(--main-blue, #45567d);
   color: #fff;
 }
+
+.work .container {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@media (max-width: 320px) {
+  .work .container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
 
 section.work h1 {
   text-align: center;
@@ -366,7 +379,7 @@ section.work .container a.box p {
   section.work .container a.box p {
     padding: 20px 0px;
     white-space: nowrap;
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -432,7 +445,6 @@ button.show:hover {
 /* End Work */
 
 /* Satrt Certificates */
-/* Start Gallery */
 
 .gallery {
   padding: var(--main-padding, 100px) 0 var(--main-padding, 100px);
