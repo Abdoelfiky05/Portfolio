@@ -309,6 +309,7 @@ ul li a:hover {
   padding: var(--main-padding, 100px) 0 var(--main-padding, 100px);
   background-color: var(--main-blue, #45567d);
   color: #fff;
+  border-radius: 5px;
 }
 
 .work .container {
@@ -344,6 +345,10 @@ section.work h1 {
   max-width: 100%;
   height: 83%;
   flex: 1;
+}
+
+.work .survey {
+  background-color: #58b6e6;
 }
 
 section.work .container {
@@ -614,3 +619,6 @@ footer p a {
 }
 
 /* End Footer */
+
+
+
