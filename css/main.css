@@ -309,7 +309,6 @@ ul li a:hover {
   padding: var(--main-padding, 100px) 0 var(--main-padding, 100px);
   background-color: var(--main-blue, #45567d);
   color: #fff;
-  border-radius: 5px;
 }
 
 .work .container {
@@ -347,9 +346,8 @@ section.work h1 {
   flex: 1;
   border-radius: 10px 10px 0 0;
 }
-
-.work .survey {
-  background-color: #58b6e6;
+section.work .container a.box.survey {
+  border-radius: 40px 40px 10px 10px;
 }
 
 section.work .container {
@@ -369,9 +367,13 @@ section.work .container a.box {
   display: block;
   color: #fff;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
+}
+
+section.work .container a.box img.survey {
+  background-color: #58b6e6
 }
 
 section.work .container a.box p {
